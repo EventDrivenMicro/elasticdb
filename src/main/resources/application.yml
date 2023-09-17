@@ -1,0 +1,12 @@
+server:
+  port: 8085
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9200
+      cluster-name: elasticsearch
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
